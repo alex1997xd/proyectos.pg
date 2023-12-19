@@ -1,0 +1,243 @@
+.BODY{
+    position: relative; /* Posicionamiento relativo */
+    padding: 3%;
+}
+/* Estilos aplicados al titulo con clase .Titulo1 */
+.Titulo1 {
+    text-align: center; /* Centra el texto */
+    font-size: 70px; /* Tamaño de fuente */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Familia de fuentes */
+    margin-bottom: 10%; /* Margen inferior */
+    margin-top: 1%; /* Margen superior */
+}
+/* Estilos para centrar una imagen horizontalmente */
+.logotipo {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Margen izquierdo  */
+    margin-right: auto; /* Margen derecho  */
+}
+
+/* Estilos de la barra de navegacion con clase .nav */
+.nav {
+    background-color: #333; /* Color de fondo */
+    overflow: hidden; /* Controla el desbordamiento de contenido */
+    margin-bottom: 7%; 
+    margin-top: -5%; 
+}
+
+/* Estilos para los elementos de navegacion en la barra .nav */
+.nav a {
+    float: left; /* Alinea los elementos a la izquierda */
+    display: block; /* Muestra los elementos como bloques */
+    color: white; /* Color del texto */
+    padding: 14px 16px; /* Espaciado interno */
+    text-decoration: none; /* Sin decoracion de texto */
+    font-size: 20px; /* Tamano de fuente */
+}
+
+/* Estilos para el hover de los elementos de navegacion */
+.nav a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el raton */
+    color: black; /* Color del texto al pasar el raton */
+}
+
+/* Estilos para elementos con clases .active o .active2 en la barra de navegacion */
+.nav a.active, .active2 {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+/* Estilos aplicados a elementos con clases .contenido1, .seccion2, .contenido, y .footer */
+.contenido1, .seccion2, .contenido, .footer {
+    position: relative; 
+    height: 250px; /* Altura fija */
+}
+
+/* Estilos aplicados al titulo con clase .h2 */
+.h2 {
+    font-size: 50px;
+}
+
+/* Estilos aplicados a titulos con clases .h3 y .h4 */
+.h3, .h4 {
+    font-size: 40px; 
+}
+
+/* Estilos aplicados a parrafos de texto, texto2, y lista en la etiqueta main */
+.texto, .texto2, .lista {
+    font-size: 20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Familia de fuentes */
+    text-align: justify; /* Alineacion justificada del texto */
+}
+
+/* Estilos aplicados a parrafos de texto en el footer */
+.texto {
+    position: absolute; /* Posicionamiento absoluto */
+    right: 30%; /* Margen derecho */
+    padding: 3%; /* Relleno */
+}
+
+/* Estilos aplicados a la imagen .cratos en el primer texto */
+.cratos {
+    position: absolute; 
+    left: 70%; /* Margen izquierdo */
+    padding: 3%; 
+}
+
+/* Estilos aplicados al segundo texto .texto2 */
+.texto2 {
+    position: absolute; 
+    left: 30%; 
+    padding: 2%; 
+}
+
+/* Estilos aplicados a la imagen .empresarios en el segundo texto */
+.empresarios {
+    position: absolute; 
+    padding: 2%; 
+    left: 3%; 
+}
+
+/* Estilos aplicados a la lista .lista del apartado contenido */
+.lista {
+    position: absolute; 
+    bottom: 1%; 
+}
+
+/* Estilos aplicados a elementos con clase .li en la lista del apartado contenido */
+.li {
+    margin-top: 2%; 
+}
+
+/* Estilos aplicados al footer */
+.footer {
+    position: relative; 
+    margin-top: 10%; 
+}
+
+/* Estilos aplicados a logotipos de redes sociales en el footer */
+.inst {
+    position: absolute; 
+    margin-top: 10%; 
+}
+
+.face {
+    position: absolute; 
+    margin-top: 10.5%; 
+    margin-left: 3%; 
+}
+
+.twit {
+    position: absolute; 
+    margin-top: 10.5%; 
+    margin-left: 6%; 
+}
+
+/* Estilos aplicados al aviso legal en el footer */
+.aviso {
+    position: absolute; 
+    margin-top: 3%; 
+}
+/* ESTILOS APLICADOS A LA SECCIÓN DE PRODUCTOS */
+.h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Familia de fuentes */
+    font-size: 40px; /* Tamaño de fuente */
+    text-align: center; /* Alineación al centro */
+    margin-top: 10%; /* Margen superior */
+}
+
+/* Estilos aplicados a la tabla de imagenes con clase .tabla */
+.tabla {
+    display: flex; /* Contenedor de estilo flexible */
+    justify-content: center; /* Alineacion de contenido al centro */
+    align-items: center; /* Alineación de elementos al centro */
+    height: 100vh; /* Altura del 100% de la ventana */
+    margin-top: 7%; /* Margen superior */
+}
+
+/* ESTILOS APLICADOS A LA SECCIÓN DE PRESUPUESTOS */
+textarea {
+    resize: vertical; /* Permitir redimension vertical */
+}
+
+/* Estilo para el contenedor del formulario con clase .form-container */
+.form-container {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor en el eje horizontal */
+    padding: 20px; 
+    height: 10px; 
+}
+
+/* Estilo para etiquetas de campo */
+label {
+    display: block; /* Muestra las etiquetas como bloques */
+    margin-bottom: 8px; 
+}
+
+/* Estilo para campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%; /* Ancho del 100% */
+    padding: 8px; 
+    margin-bottom: 16px; 
+    box-sizing: border-box;/* Tamaño de caja que incluye el relleno y el borde */
+    }
+/* Estilo para el botón de envío */
+button {
+    background-color: #4caf50; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 15px; 
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+/* Estilo para el botón de envio cuando el ratón esta encima */
+button:hover {
+    background-color: #45a08e; /* Cambio de color de fondo al pasar el raton */
+}
+
+/* Estilo para el titulo con clase .h5 en la seccion de presupuestos */
+.h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 35px; 
+    text-align: center; 
+}
+
+/* Estilos para la sección de contacto */
+.h6 {
+    font-size: 35px; 
+}
+
+/* Estilos para datos, imagen de ubicacion y título en la seccion de presupuestos */
+.datos .ubi .h6 {
+    display: inline-block; /* Muestra en linea */
+}
+
+.datos {
+    position: absolute; 
+    text-align: justify; 
+    font-size: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 35%; 
+    margin-top: -15%;
+    margin-right: 5%; 
+}
+
+
+
+
+    
+   
+  
+  
+
+
+    
+
+
+
+    
+
+

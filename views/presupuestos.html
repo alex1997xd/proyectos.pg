@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Inicio del documento HTML con el idioma principal como español -->
+<html lang="es">
+<head>
+  <!-- Seccion de encabezado del documento -->
+  <!-- Codificación de caracteres UTF-8 -->
+  <meta charset="utf-8">
+  <!-- Configuracion de la visualizacion en dispositivos y escala inicial -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titulo de la pgina -->
+  <title>Presupuestos</title>
+  <!-- Enlace a la hoja de estilos externa en la carpeta "css" -->
+  <link rel="stylesheet" href="../css/estilos.css">
+  <!-- Inclusion de script externo desde el archivo "script.js" -->
+  <script src="script.js"></script>
+  <!-- Descripcion de la pagina para  los motores de busqueda -->
+  <meta name="description" content="descripcion de la pagina">
+  <!-- Enlace al icono que aparecera en la pestaña del navegador -->
+  <link rel="icon" href="/favicon.png" type="image/x-icon">
+</head>
+<body class="BODY">
+  <!-- Encabezado de la pagina -->
+  <header class="header">
+      <!-- Titulo principal de la seccion -->
+      <h1 class="Titulo1">Presupuesto</h1>
+      <!-- Navegacion de la pagina -->
+      <nav>
+        <div class="nav">
+          <!-- Enlace al indice -->
+          <span class="boton">
+            <a href="../index.html" class="active3">Indice</a>
+          </span>
+          <!-- Enlace a la seccion de presupuestos (actual) -->
+          <span class="boton">
+            <a href="../views/presupuestos.html" class="active2">Presupuestos</a>
+          </span>
+          <!-- Enlace a la seccion de contacto -->
+          <span class="boton">
+            <a href="../views/contacto.html" class="enlace3">Contacto</a>
+          </span>
+          <!-- Enlace a la seccion de productos -->
+          <span class="boton">
+            <a href="../views/productos.html" class="active4">Productos</a>
+          </span>
+        </div>
+      </nav>
+  </header>
+  <!-- Contenido principal de la pagina -->
+  <main>
+      <!-- Tatulo de la sección de solicitud de presupuesto -->
+      <h5 class="h5">Solicitud de Presupuesto</h5>
+      <!-- Contenedor del formulario -->
+    <div class="form-container">
+      <!-- Formulario de solicitud de presupuesto -->
+      <form action="#" method="get">
+          <!-- Campo para ingresar el nombre -->
+          <label for="nombre">Nombre:</label>
+          <input class="form-container" type="text" id="nombre" name="nombre" required>
+
+          <!-- Campo para ingresar el correo electrónico -->
+          <label for="email">Email:</label>
+          <input class="form-container" type="email" id="email" name="email" required>
+
+          <!-- Campo para ingresar el numero de telfono -->
+          <label for="telefono">Telefono:</label>
+          <input class="form-container" type="tel" id="telefono" name="telefono" required>
+
+          <!-- Area para solicitar mas informacion -->
+          <label for="informacion">Solicite mas información:</label>
+          <textarea id="informacion" name="informacion" rows="4" required></textarea>
+
+          <!-- Casilla de verificacion para aceptar la politica de privacidad -->
+          <label>
+             <input type="checkbox" id="politica" name="politica" required>
+             Acepto la Política de Privacidad
+          </label>
+          
+          <!-- Boton de envio del formulario -->
+          <button type="submit">Enviar</button>
+      </form>
+    </div>  
+  </main>
+</body>
+</html>
